@@ -55,3 +55,17 @@ describe("Saludador idioma español", () => {
   });
 
 });
+
+describe("Saludador idioma ingles", () => {
+
+  it("deberia saludar en ingles en la mañana", () => {
+    expect(saludar("John", 9, "M", 30, "en"))
+      .toEqual("Good morning, Mr. John");
+  });
+
+  it("deberia usar young si es menor", () => {
+    expect(saludar("John", 9, "M", 15, "en"))
+      .toEqual("Good morning, young John");
+  });
+
+});
