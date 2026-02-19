@@ -76,18 +76,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6b52c63d9b20ddee39cd380e6d39c5d8d91db3b1",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-12T14:21:24.000Z",
       "message": "chore: ignore tdd log file",
-      "url": "https://github.com/Josue-Camacho/Multiplicar/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/Multiplicar/commit/6b52c63d9b20ddee39cd380e6d39c5d8d91db3b1"
     },
     "stats": {
       "total": 3,
       "additions": 2,
       "deletions": 1,
       "date": "2026-02-12"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:03:24.000Z",
+      "message": "feat:añadiendo test saludador",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
+      "date": "2026-02-19"
     },
     "coverage": 100,
     "test_count": 2,
