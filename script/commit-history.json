@@ -114,17 +114,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d69ace0f77cba432fd9c74314318b0c5e56bde1e",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-19T02:05:07.000Z",
       "message": "feat:añadiendo saludador",
-      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/d69ace0f77cba432fd9c74314318b0c5e56bde1e"
     },
     "stats": {
       "total": 5,
       "additions": 5,
       "deletions": 0,
+      "date": "2026-02-19"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:06:54.000Z",
+      "message": "feat:implementar saludo basico con hola",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 38,
+      "additions": 7,
+      "deletions": 31,
       "date": "2026-02-19"
     },
     "coverage": 100,
