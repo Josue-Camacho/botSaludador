@@ -19,8 +19,7 @@ function obtenerTitulo(genero, edad, idioma) {
     return "";
   }
 
-  // español
-  if (edad !== undefined && edad < 18) return "joven";
+  if (edad !== undefined && edad < 30) return "joven";
   if (genero === "M") return "señor";
   if (genero === "F") return "señora";
   return "";
