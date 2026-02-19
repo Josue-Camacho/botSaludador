@@ -5,7 +5,7 @@ function obtenerSaludoPorHora(hora) {
 }
 
 function obtenerTitulo(genero, edad) {
-  if (edad !== undefined && edad < 18) {
+  if (edad !== undefined && edad < 30) {
     return "joven";
   }
 
