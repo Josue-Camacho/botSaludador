@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bd6371147e1f0ef695c0a95f36ce60387c968a4d",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-19T02:15:00.000Z",
       "message": "feat: agregar campo de nombre al formulario",
-      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/bd6371147e1f0ef695c0a95f36ce60387c968a4d"
     },
     "stats": {
       "total": 7,
@@ -245,5 +245,24 @@
     "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:16:36.000Z",
+      "message": "test: añadir pruebas para saludo según hora",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 11,
+      "deletions": 5,
+      "date": "2026-02-19"
+    },
+    "coverage": 80,
+    "test_count": 5,
+    "failed_tests": 3,
+    "conclusion": "failure"
   }
 ]
