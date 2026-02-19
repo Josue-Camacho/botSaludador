@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d06c7178b02d135b8dccb703485210acc095fd45",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-19T02:28:40.000Z",
       "message": "test: añadir pruebas para saludo segun edad",
-      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/d06c7178b02d135b8dccb703485210acc095fd45"
     },
     "stats": {
       "total": 19,
@@ -378,5 +378,24 @@
     "test_count": 10,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:29:25.000Z",
+      "message": "feat: implementar saludo personalizado segun edad",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 11,
+      "deletions": 14,
+      "date": "2026-02-19"
+    },
+    "coverage": 95.45,
+    "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
