@@ -8,11 +8,25 @@ function obtenerSaludoPorHora(hora) {
   return "Buenas noches";
 }
 
-function saludar(nombre, hora) {
+function obtenerTituloPorGenero(genero) {
+  if (genero === "M") {
+    return "señor";
+  }
+  if (genero === "F") {
+    return "señora";
+  }
+  return "";
+}
+
+function saludar(nombre, hora, genero) {
   const horaActual = hora !== undefined ? hora : new Date().getHours();
   const saludoBase = obtenerSaludoPorHora(horaActual);
+  const titulo = obtenerTituloPorGenero(genero);
 
   if (nombre) {
+    if (titulo) {
+      return saludoBase + ", " + titulo + " " + nombre;
+    }
     return saludoBase + ", " + nombre;
   }
 
