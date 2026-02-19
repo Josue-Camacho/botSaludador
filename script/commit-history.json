@@ -437,12 +437,12 @@
     "conclusion": "failure"
   },
   {
-    "sha": "HEAD",
+    "sha": "77f4c3b7f1a210e56307d90be2ba7a8c8718383e",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-19T02:33:34.000Z",
       "message": "test: añadir prueba para saludo en español",
-      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/77f4c3b7f1a210e56307d90be2ba7a8c8718383e"
     },
     "stats": {
       "total": 9,
@@ -454,5 +454,24 @@
     "test_count": 11,
     "failed_tests": 1,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:34:19.000Z",
+      "message": "feat: permitir configuracion de idioma español",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 16,
+      "deletions": 10,
+      "date": "2026-02-19"
+    },
+    "coverage": 79.31,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
