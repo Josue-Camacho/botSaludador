@@ -46,3 +46,12 @@ describe("Saludador segun edad", () => {
   });
 
 });
+
+describe("Saludador idioma español", () => {
+
+  it("deberia saludar en español cuando idioma es es", () => {
+    expect(saludar("Juan", 9, "M", 30, "es"))
+      .toEqual("Buenos días, señor Juan");
+  });
+
+});
