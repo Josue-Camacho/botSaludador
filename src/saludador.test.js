@@ -27,3 +27,22 @@ describe("Saludador con genero", () => {
   });
 
 });
+
+describe("Saludador segun edad", () => {
+
+  it("deberia usar joven si es menor de edad", () => {
+    expect(saludar("Pedro", 9, "M", 15))
+      .toEqual("Buenos días, joven Pedro");
+  });
+
+  it("deberia usar señor si es mayor de edad masculino", () => {
+    expect(saludar("Juan", 9, "M", 30))
+      .toEqual("Buenos días, señor Juan");
+  });
+
+  it("deberia usar señora si es mayor de edad femenino", () => {
+    expect(saludar("Maria", 9, "F", 25))
+      .toEqual("Buenos días, señora Maria");
+  });
+
+});

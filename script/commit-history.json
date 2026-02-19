@@ -323,17 +323,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b8487070cd5dc448874a3f6f8cbdbcf3a1dc254f",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-19T02:25:45.000Z",
       "message": "feat(ui): agregar selector de genero",
-      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/b8487070cd5dc448874a3f6f8cbdbcf3a1dc254f"
     },
     "stats": {
       "total": 7,
       "additions": 7,
       "deletions": 0,
+      "date": "2026-02-19"
+    },
+    "coverage": 95,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:27:10.000Z",
+      "message": "feat: implementar saludo personalizado por genero",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
       "date": "2026-02-19"
     },
     "coverage": 95,
