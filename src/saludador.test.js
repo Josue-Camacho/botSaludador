@@ -41,7 +41,7 @@ describe("Saludador segun edad", () => {
   });
 
   it("deberia usar señora si es mayor de edad femenino", () => {
-    expect(saludar("Maria", 9, "F", 25))
+    expect(saludar("Maria", 9, "F", 35))
       .toEqual("Buenos días, señora Maria");
   });
 
@@ -59,7 +59,7 @@ describe("Saludador idioma español", () => {
 describe("Saludador idioma ingles", () => {
 
   it("deberia saludar en ingles en la mañana", () => {
-    expect(saludar("John", 9, "M", 30, "en"))
+    expect(saludar("John", 9, "M", 35, "en"))
       .toEqual("Good morning, Mr. John");
   });
 
@@ -69,3 +69,4 @@ describe("Saludador idioma ingles", () => {
   });
 
 });
+
