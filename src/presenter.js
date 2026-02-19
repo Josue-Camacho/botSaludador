@@ -5,6 +5,7 @@ const generoSelect = document.querySelector("#genero");
 const edadInput = document.querySelector("#edad");
 const form = document.querySelector("#saludar-form");
 const div = document.querySelector("#resultado-div");
+const idiomaSelect = document.querySelector("#idioma");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -12,6 +13,7 @@ form.addEventListener("submit", (event) => {
   const nombre = input.value;
   const genero = generoSelect.value;
   const edad = edadInput.value ? Number(edadInput.value) : undefined;
+  const idioma = idiomaSelect.value;
 
-  div.innerHTML = "<p>" + saludar(nombre, undefined, genero, edad) + "</p>";
+  div.innerHTML = "<p>" + saludar(nombre, undefined, genero, edad,idioma) + "</p>";
 });

@@ -7,15 +7,24 @@
     <h1>Bot Saludador</h1>
 
     <form id="saludar-form">
+      
       <input type="text" id="nombre" placeholder="Ingresa tu nombre" />
 
       <select id="genero">
-      <option value="">Selecciona género</option>
-      <option value="M">Masculino</option>
-      <option value="F">Femenino</option>
+        <option value="">Selecciona género</option>
+        <option value="M">Masculino</option>
+        <option value="F">Femenino</option>
       </select>
+
       <input type="number" id="edad" placeholder="Edad" />
+
+      <select id="idioma">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
+
       <input type="submit" value="Saludar" />
+
     </form>
 
     <div id="resultado-div"></div>
