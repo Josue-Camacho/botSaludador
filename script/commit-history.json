@@ -1,0 +1,97 @@
+[
+  {
+    "sha": "2bca989caa1c6a3d94b37dba52e2012c0e1f49d0",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-12T01:14:59.000Z",
+      "message": "feat:add multiplicar",
+      "url": "/commit/2bca989caa1c6a3d94b37dba52e2012c0e1f49d0"
+    },
+    "stats": {
+      "total": 29961,
+      "additions": 29961,
+      "deletions": 0,
+      "date": "2026-02-12"
+    },
+    "coverage": 50,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "95cfdbfbb777424bb733e29e95a6a58784fccf80",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-12T01:18:22.000Z",
+      "message": "feat:add multiplicar test",
+      "url": "https://github.com/Josue-Camacho/Multiplicar/commit/95cfdbfbb777424bb733e29e95a6a58784fccf80"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-02-12"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "b65f69a69ec0672c1013390fc879a50719b0029a",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-12T01:19:49.000Z",
+      "message": "feat:add multiplicar nuevo boton",
+      "url": "https://github.com/Josue-Camacho/Multiplicar/commit/b65f69a69ec0672c1013390fc879a50719b0029a"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-02-12"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "766f2bc52d4766f2d22154b07bdc1076f03a0bd0",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-12T01:22:33.000Z",
+      "message": "feat: add new boton",
+      "url": "https://github.com/Josue-Camacho/Multiplicar/commit/766f2bc52d4766f2d22154b07bdc1076f03a0bd0"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-02-12"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-12T14:21:24.000Z",
+      "message": "chore: ignore tdd log file",
+      "url": "https://github.com/Josue-Camacho/Multiplicar/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 2,
+      "deletions": 1,
+      "date": "2026-02-12"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
