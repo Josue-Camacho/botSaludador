@@ -15,3 +15,15 @@ describe("Saludador con hora", () => {
   });
 
 });
+
+describe("Saludador con genero", () => {
+
+  it("deberia saludar con señor si es masculino", () => {
+    expect(saludar("Juan", 9, "M")).toEqual("Buenos días, señor Juan");
+  });
+
+  it("deberia saludar con señora si es femenino", () => {
+    expect(saludar("Maria", 9, "F")).toEqual("Buenos días, señora Maria");
+  });
+
+});
