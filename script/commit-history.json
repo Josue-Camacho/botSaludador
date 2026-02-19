@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "617ddab25d9cecb99fef6ef2e9747356179e22b2",
     "author": "Josue-Camacho",
     "commit": {
       "date": "2026-02-19T02:22:24.000Z",
       "message": "test: añadir pruebas para saludo según genero",
-      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/617ddab25d9cecb99fef6ef2e9747356179e22b2"
     },
     "stats": {
       "total": 12,
@@ -302,5 +302,24 @@
     "test_count": 7,
     "failed_tests": 2,
     "conclusion": "failure"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Josue-Camacho",
+    "commit": {
+      "date": "2026-02-19T02:23:16.000Z",
+      "message": "feat: implementar saludo personalizado por genero",
+      "url": "https://github.com/Josue-Camacho/botSaludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-02-19"
+    },
+    "coverage": 95,
+    "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
