@@ -1,27 +1,24 @@
 function obtenerSaludoPorHora(hora) {
-  if (hora >= 0 && hora < 12) {
-    return "Buenos días";
-  }
-  if (hora >= 12 && hora < 19) {
-    return "Buenas tardes";
-  }
+  if (hora >= 0 && hora < 12) return "Buenos días";
+  if (hora >= 12 && hora < 19) return "Buenas tardes";
   return "Buenas noches";
 }
 
-function obtenerTituloPorGenero(genero) {
-  if (genero === "M") {
-    return "señor";
+function obtenerTitulo(genero, edad) {
+  if (edad !== undefined && edad < 18) {
+    return "joven";
   }
-  if (genero === "F") {
-    return "señora";
-  }
+
+  if (genero === "M") return "señor";
+  if (genero === "F") return "señora";
+
   return "";
 }
 
-function saludar(nombre, hora, genero) {
+function saludar(nombre, hora, genero, edad) {
   const horaActual = hora !== undefined ? hora : new Date().getHours();
   const saludoBase = obtenerSaludoPorHora(horaActual);
-  const titulo = obtenerTituloPorGenero(genero);
+  const titulo = obtenerTitulo(genero, edad);
 
   if (nombre) {
     if (titulo) {
